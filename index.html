@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar Starting -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container mainheader">
+                <a href="index2.html"><img src="images/Untitled-removebg-preview.png1.png" class="image" alt=""></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index2.html" aria-current="page">Home
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Countries</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="Austrailia.html">Austrailia</a>
+                                <a class="dropdown-item" href="europe.html">Europe</a>
+                                <a class="dropdown-item" href="ireland.html">Ireland</a>
+                                <a class="dropdown-item" href="Newzealand.html">Newzealand</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search" id="searchinput"/>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="searchcountry()">
+                            <i class="fa fa-search p-0"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar Ending -->
+    </header>
+    <main>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide1">
+                    <div class="container">
+                        <div class="content">
+                            <h1>Bells-Beach</h1>
+                        <p>Bells Beach is the home of the world's longest continuously running pro surfing competition – now known as the Rip Curl Pro Bells Beach. The event was formerly known as the Bells Easter Classic among a variety of other titles.</p>
+                        <button class="view"><a href="Austrailia.html">View More</a></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide2">
+                    <div class="container">
+                        <div class="content">
+                            <h1>Komodo-Beach</h1>
+                        <p>Indonesia is an Easy Summer Destination, for Families & Couples.Different members of our team have their own experiences in Indonesia. We’ve also collated feedback from our clients and teamed up with local Indonesian partner Khiri Travel, to present this guide to Indonesia in 2024.</p>
+                        <button class="view"><a href="Newzealand.html">View More</a></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide3">
+                    <div class="container">
+                        <div class="content">
+                            <h1>Myrtos-Beach</h1>
+                        <p>Myrtos Beach is in the region of Pylaros, in the north-west of Kefalonia island, in the Ionian Sea of Greece. Myrtos beach lies between the feet of two mountains, Agia Dynati and Kalon Oros.</p>
+                        <button class="view"><a href="europe.html">View More</a></button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide4">
+                    <div class="container">
+                        <div class="content">
+                            <h1>Chums-Beach</h1>
+                        <p>New Chums Beach is a beach in the Wainuiototo Bay on the northeast coast of the Coromandel Peninsula, New Zealand, near Whangapoua.The hills behind the one-kilometre white-sand beach are undeveloped and covered in native bush, adding to its unspoiled appeal.</p>
+                        <button class="view"><a href="ireland.html">View More</a></button>                        </div>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        <div class="home">
+            <div class="container hero">
+                <div class="first" >
+                    <h4>Explore and travel</h4>
+                    <h2>The journey of a thousand miles begins with a single step.</h1>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center images">
+                    <div class="div1 col-4 p-0">
+                        <img src="images/IMG_8995.webp" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                    </div>
+                    <div class="div2 col-4 p-0">
+                        <img src="images/12.jpg" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                    </div>
+                    <div class="div3 col-4 p-0">
+                        <img src="images/european-beach-attire-mar-08-24.webp" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="featured" id="about">
+            <div class="container">
+                <div class="second">
+                    <h5>EXPLORE</h5>
+                    <h2>Featured Countries</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada massa porttitor
+                        lectus cursus nec. Ut pharetra metus nec elit lobortis turpis eu blandit mattis imperdiet.
+                        Praesent pharetra lobortisturpis eu blandit mattis fermentum.</p>
+                </div>
+                <div class="row cart">
+                    <div class="cart1 col-3">
+                        <img src="images/112189-Bells-Beach.avif" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <h5>01</h5>
+                        <h3>Bells Beach</h3>
+                        <p>Bells Beach is the home of the world's longest continuously running pro surfing competition –
+                            now known as the Rip Curl Pro Bells Beach. The event was formerly known as the Bells Easter
+                            Classic (among a variety of other titles). The competition was first held in January 1962
+                            and then at Easter every year since, although occasionally, when conditions at Bells aren't
+                            suitable.</p>
+                    </div>
+                    <div class="cart2 col-3">
+                        <img src="images/mount-maunganui-beach-panorama-new-zealand-scaled.jpg" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <h5>02</h5>
+                        <h3>Mount Maunganui</h3>
+                        <p>Set on a peninsula, Mount Maunganui is a laid-back suburb known for the extinct Mount
+                            Maunganui volcano, a sacred Maori site with ocean-view hiking trails. Long, sandy Main Beach
+                            is popular for its surf breaks, while Pilot Bay Beach has calm waters for paddle boarding.
+                            The Mount Hot Pools complex offers saltwater bathing and spa treatments, while brunch spots,
+                            global restaurants, and boutiques fill the town centre.
+                        </p>
+                    </div>
+                    <div class="cart3 col-3">
+                        <img src="images/porto-katsiki-viewpoint.jpg" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <h5>03</h5>
+                        <h3>Porto Katsiki</h3>
+                        <p>Porto Katsiki is a beach on the Ionian island of Lefkada, Greece. The name is said to be
+                            because formerly only goats could reach this area. The beach is famed for its landscape and
+                            clear blue sea. It is located at the bottom of a concave pale cliff. It is 35 km from
+                            Lefkada town, near Athani village</p>
+                    </div>
+                    <div class="cart4 col-3">
+                        <img src="images/keem_bay_beach_1.jpg" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <h5>04</h5>
+                        <h3>Keem Bay</h3>
+                        <p>Banna Strand (Gaeilge: Trá na Beannaí), also known as Banna Beach, is a beach in North Kerry,
+                            Ireland. It is an Atlantic Ocean beach extending from the Smallrock (Roc Beag) and Blackrock
+                            in the North to Carrahane at its southern edge. It is around 12 kilometres (7 mi) north west
+                            of Tralee. It features shifting sand dunes along its entire length which rise up to 12
+                            metres (40 ft).</p>
+                    </div>
+                    <div class="btnn">
+                        <button class="view"><a href="Austrailia.html">See More</a></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- <div class="packages">
+            <div class="container">
+                <div class="third">
+                    <h5>summer special</h5>
+                    <h2>Our Packages</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada massa porttitor
+                        lectus cursus nec. Ut pharetra metus nec elit lobortis turpis eu blandit mattis imperdiet.
+                        Praesent pharetra lobortisturpis eu blandit mattis fermentum.</p>
+                </div>
+
+                <div class="row pack">
+
+                    <div class="pack1 col-4" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="2500"
+                    data-aos-duration="3000">
+
+                        <div class="heading">
+                            <h5>SUBTITLE</h5>
+                            <h4>Indivisual</h4>
+                        </div>
+
+                        <div class="price">
+                            <h2>$30</h2>
+                            <h6>/ per day</h6>
+                        </div>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the
+                            industry’s standard dummy text ever since the 1500s,</p>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Suspendisse in massa velit ullacorper</p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Pellentesque hendrerit at turpis
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Nulla malesuada sed ex maximus
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Quisque pulvinar amet ete elementum
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Mauris faucibus nibh congue
+                            </p>
+                        </div>
+
+                        <div class="btnt">
+                            <button class="view"><a href="Austrailia.html">Book Now</a></button>
+                            <i class="fa fa-long-arrow-right" style="font-size:22px;"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="pack1 col-4" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="2500"
+                    data-aos-duration="3000">
+
+                        <div class="heading">
+                            <h5>SUBTITLE</h5>
+                            <h4>Couple</h4>
+                        </div>
+
+                        <div class="price">
+                            <h2>$60</h2>
+                            <h6>/ per day</h6>
+                        </div>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the
+                            industry’s standard dummy text ever since the 1500s,</p>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Suspendisse in massa velit ullacorper</p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Pellentesque hendrerit at turpis
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Nulla malesuada sed ex maximus
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Quisque pulvinar amet ete elementum
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Mauris faucibus nibh congue
+                            </p>
+                        </div>
+
+                        <div class="btnt">
+                            <button class="view"><a href="Newzealand.html">Book Now</a></button>
+                            <i class="fa fa-long-arrow-right" style="font-size:22px;"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="pack1 col-4" data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="2500"
+                    data-aos-duration="3000">
+
+                        <div class="heading">
+                            <h5>SUBTITLE</h5>
+                            <h4>Team</h4>
+                        </div>
+
+                        <div class="price">
+                            <h2>$90</h2>
+                            <h6>/ per day</h6>
+                        </div>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the
+                            industry’s standard dummy text ever since the 1500s,</p>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Suspendisse in massa velit ullacorper</p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Pellentesque hendrerit at turpis
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Nulla malesuada sed ex maximus
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Quisque pulvinar amet ete elementum
+                            </p>
+                        </div>
+
+                        <div class="iconbox">
+                            <i class="fa fa-check-circle pt-1"></i>
+                            <p>Mauris faucibus nibh congue
+                            </p>
+                        </div>
+
+                        <div class="btnt">
+                            <button class="view"><a href="Austrailia.html">Book Now</a></button>
+                            <i class="fa fa-long-arrow-right" style="font-size:22px;"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <div class="customer">
+            <div class="container">
+                <div class="recent">
+                    <h5>Our Customers</h5>
+                    <h2>Recent Tours</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada massa porttitor
+                        lectus cursus nec. Ut pharetra metus nec elit lobortis turpis eu blandit mattis imperdiet.
+                        Praesent pharetra lobortisturpis eu blandit mattis fermentum.</p>
+                </div>
+
+                <div class="row tour">
+                    <div class="tour1 col-4">
+                        <img src="images/Indonesia-Comp-11-1-scaled-e1697463982773.jpg" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <h5>Couple</h5>
+                        <h3>Kelingking Beach</h3>
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maece males mas porttitor lectus
+                            cursus nec. Ut pharetra metus nec lobortis imperdiet pharetra fermentum.</p>
+                        <div class="arrow">
+                            <a href="Austrailia.html"><img src="images/Group-2.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="tour2 col-4">
+                        <img src="images/img-1536201939-3159-8823-717CA83C-0811-08A9-5BCA19BBB934D606__aWxvdmVrZWxseQo_FocalPointCropWzM1MiwxMDI0LDQwLDY2LDc1LCJqcGciLDY1LDIuNV0.jpg"
+                            alt="" data-aos="fade-up"
+                            data-aos-duration="1200">
+                        <h5>Couple</h5>
+                        <h3>Piha</h3>
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maece males mas porttitor lectus
+                            cursus nec. Ut pharetra metus nec lobortis imperdiet pharetra fermentum.</p>
+                        <div class="arrow">
+                            <a href="Newzealand.html"><img src="images/Group-2.png" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="tour3 col-4">
+                        <img src="images/Untitled-design-14.jpg.webp" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <h5>Couple</h5>
+                        <h3>Dog's Bay, Co. Galway</h3>
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maece males mas porttitor lectus
+                            cursus nec. Ut pharetra metus nec lobortis imperdiet pharetra fermentum.</p>
+                        <div class="arrow">
+                            <a href="Austrailia.html"><img src="images/Group-2.png" alt=""></a>
+                        </div>
+                    </div>
+
+
+                    <div class="btnn">
+                        <button><a href="Newzealand.html">See more</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+            <div class="customer" id="testimonial">
+                <div class="container">
+                    <div class="recent">
+                        <h5>Testimonials</h5>
+                        <h2>Words from our customers</h2>
+                        <p>Etiam rutrum efficitur massa, sed interdum quam finibus ac. Nulla velit metus, auctor sit amet
+                            accumsan nec, mollis ultrices arcu. Vivamus lobortis molestie lacus a ornare. Aliquam tristique
+                            dolor magna, sed eleifend nisi ornare vitae. Nunc eget vulputate leo, ac eleifend erat.</p>
+                    </div>
+
+
+                    <div class="row review">
+                        <div class="review col-2">
+                            <img src="images/11.jpg" alt="" data-aos="fade-up"
+                            data-aos-duration="1200">
+                        </div>
+                        <div class="review1 col-7">
+                            <i class="fa fa-quote-left icon" style="font-size: 55px;"></i>
+                            <p>Mauris faucibus ante quis arcu pellentesque congue. In faucibus ipsum vitae libero hendrerit
+                                volutpat. Semed quis mauris consequat, sollicitudin urna ac, mattis neque. Aenean purus
+                                ligula, condimentum quis, auctor.</p>
+                            <h4>Mary Gillis</h4>
+                            <h5>Brooklyn, NY</h5>
+                        </div>
+
+
+                        <div class="review1 col-7">
+                            <i class="fa fa-quote-left icon" style="font-size: 55px;"></i>
+                            <p>Mauris faucibus ante quis arcu pellentesque congue. In faucibus ipsum vitae libero hendrerit
+                                volutpat. Semed quis mauris consequat, sollicitudin urna ac, mattis neque. Aenean purus
+                                ligula, condimentum quis, auctor.</p>
+                            <h4>Mary Gillis</h4>
+                            <h5>Brooklyn, NY</h5>
+                        </div>
+
+                        <div class="review col-2">
+                            <img src="images/New-Zealand-Beaches-1440x960.webp" alt="" data-aos="fade-up"
+                            data-aos-duration="1200">
+                        </div>
+
+                        <!-- <div class="btnn">
+                            <button>See more</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            
+
+
+        <section>
+           <div class="container">
+            <ul>
+                <li class="list active" data-filter="itembox">All</li>
+                <li class="list" data-filter="australia">Austrailia</li>
+                <li class="list" data-filter="europe">Europe</li>
+                <li class="list" data-filter="ireland">Ireland</li>
+                <li class="list" data-filter="newzealand">NewZealand</li>
+            </ul>
+            <div class="product">
+                <div class="row">
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 australia"><img src="images/aus1.png" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 europe"><img src="images/eur1.png" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 ireland"><img src="images/new1.jpg" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 newzealand"><img src="images/112189-Bells-Beach.avif" alt=""></div>
+
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 australia"><img src="images/aus2.png" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 europe"><img src="images/eur2.png" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 ireland"><img src="images/new2.webp" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 newzealand"><img src="images/IMG_8995.webp" alt=""></div>
+
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 australia"><img src="images/aus3.png" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 europe"><img src="images/eur3.png" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 ireland"><img src="images/new3.jpg" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 newzealand"><img src="images/22.jpg" alt=""></div>
+
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 australia"><img src="images/aus4.png" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 europe"><img src="images/eur4.jpg" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 ireland"><img src="images/321.webp" alt=""></div>
+                <div class="itembox col-lg-3 col-md-6 col-sm-12 newzealand"><img src="images/New-Zealand-Beaches-1440x960.webp" alt=""></div>
+            </div>
+
+            </div>
+           </div>
+        </section>
+
+
+
+        <div class="customer1">
+            <div class="container">
+                <div class="row last">
+                    <div class="last col-6">
+                        <img src="images/agustin-diaz-gargiulo-7F65HDP0-E0-unsplash.jpg" alt="" data-aos="fade-up"
+                        data-aos-duration="1200">
+                    </div>
+
+                    <div class="whitebox col-2">
+                        <div class="box1">
+                            <h2>6000+ Tours</h2>
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Maecenas massa porttitor lectus
+                                cursus nec. Ut pharetra metus nec lobortis imperdiet. Praesent iaculis lorem pharetra at
+                                med fermentum.</p>
+                        </div>
+                    </div>
+
+                    <div class="review2 col-3">
+                        <div class="heading1">
+                            <h5>Explore the world</h5>
+                            <h3>Book the package now</h3>
+                            <p>Quisque accumsan facilisiseleifend. Integer ultricies leo eros, non molestie lorem
+                                posuere eget. Fusce eget iaculis lorem. Phasellus ante metus, sodales pulvinar lectus
+                                in, pellentesque congue tortor</p>
+                            <div class="btnn">
+                                <button class="view"><a href="Newzealand.html">See More</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="contactus" id="contact">
+            <div class="container">
+                <div class="maindiv">
+
+                    <div class="conn">
+                        <h1>Contact us</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas incidunt vitae?
+                            </p>
+                    </div>
+
+
+                    <div class="contact">
+                        <div class="infoz">
+                            <div class="info">
+                                <i class="fa fa-map-marker" style="font-size:20px"></i>
+                                <div class="add1">
+                                    <h4>Address</h4>
+                                    <h6>Gulzar E Hijri Scheme 33, Karachi, Pakistan</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="infoz">
+                            <div class="phone">
+                                <i class="fa fa-phone" style="font-size:20px"></i>
+                                <div class="add2">
+                                    <h4>Call Us</h4>
+                                    <h6>+92 28 2314096</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="infoz">
+                            <div class="email">
+                                <i class="fa fa-envelope" style="font: size 18px;"></i>
+                                <div class="add3">
+                                    <h4>Email Us</h4>
+                                    <h6>mustufasheikh93@gmail.com</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="download">
+                            <a href="PDF Download/Australia Beaches.pdf" download> <i class="fa fa-download" style="font-size: 22px;"></i></a>
+                         </div>
+
+
+                    </div>
+
+
+                </div>
+                
+                <div class="message">
+                    <div class="name">
+                        <input class="myinput" type="text" id="name" placeholder="Your Name"> 
+                    </div>
+                    <div class="mnn">
+                        <input class="myinput" type="email" id="email" placeholder="Your Email">
+                    </div>
+                   
+                </div>
+
+                <div class="msg">
+                      <textarea placeholder="Describe Your Message" name="" id="message"></textarea>  
+                </div>
+                <div class="bttn">
+                    <button type="submit" onclick="sendMail()">Send Message</button>
+                </div>
+                  
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <!-- place footer here -->
+         <div class="page1">
+          <a href="index2.html"> <img src="images/213-2137186_arrow-thin-up-comments-top-arrow-removebg-preview.png" alt=""></a>
+         </div>
+        
+         <div class="container">
+            <div class="row">
+                <div class="col-3 one">
+                    <a href="index2.html"><img src="images/BEAUTIFUL.png" alt=""></a>
+                    <p>Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa fa-facebook-f" style="font-size: 20px;"></i></a>
+                        <a href=""><i class="fa fa-github" style="font-size: 20px; padding-left: 10px;"></i></a>
+                        <a href=""><i class="fa fa-instagram" style="font-size: 20px; padding-left: 10px;"></i></a>
+                        <a href=""><i class="fa fa-linkedin " style="font-size: 20px; padding-left: 10px;"></i></a>
+                    </div>
+                </div>
+                <div class="col-3 num">
+                    <h3>Contact</h3>
+                    <p>Gulzar E Hijri Scheme 33, Karachi, Pakistan</p>
+                    <h6>mustufasheikh93@gmail.com</h6>
+                    <h4>+92 28 2314096</h4>
+                </div>
+                <div class="col-3 ex">
+                    <h3>Explore</h3>
+                    <ul class="links">
+                        <li><a href="index2.html">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonial">Services</a></li>
+                        <li><a href="Contact">Contacts</a></li>
+                        <li><a href="Austrailia.html">Countries</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 es">
+                    <H3>Newsletter!</H3>
+                     <div class="send">
+                        <!-- <i class="fa fa-envelope" style="font-size: 18px;"></i> -->
+                        <input class="placeholder" type="email" placeholder="Enter your email id">
+                       <div class="b">
+                        <button type="submit">Submit</button>
+                       </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <hr>
+           <div class="cp">
+            <p>© copyright 2024/2025 by Beautiful Beaches</p>
+           </div>
+            </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script>
+    AOS.init();
+  </script>
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+    $('.list').click(function(){
+        const value = $(this).attr('data-filter');
+        if (value == 'all'){
+            $('itembox').show('1000');
+        }
+        else{
+            $('.itembox').not('.'+value).hide('1000');
+            $('.itembox').filter('.'+value).show('1000');
+        }
+    })
+    // add active class on selected item
+
+    $('.list').click(function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+})
+
+var swiper = new Swiper(".mySwiper", {
+
+
+    
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      
+    });
+
+
+   (function(){
+      emailjs.init({
+        publicKey: "ISTHSIWdOBkXtGfqF",
+      });
+   })();
+
+   function sendMail()
+   {
+    var name = document.getElementById('name').value
+    var email = document.getElementById('email').value
+    var message = document.getElementById('message').value
+
+    var details = {
+        name:name,
+        email:email,
+        message:message,
+    }
+    var serviceid = 'service_ex8j8n5'
+    var templateid = 'template_bxewj1e'
+
+    emailjs.send(serviceid,templateid,details)
+    // Toastify({
+
+    //  text: "Your Message has been Send",
+
+    //  duration: 10000
+
+    //  }).showToast();
+     Toastify({
+        text: "Your Message has been Send",
+        duration: 30000,
+        destination: "https://github.com/apvarun/toastify-js",
+        newWindow: true,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "center", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(135deg,#73a5ff,#5477f5)",
+        },
+        onClick: function(){} // Callback after click
+    }).showToast();
+   }
+
+
+
+
+
+   var con = document.getElementById('content-Australia')
+   var see = document.getElementById('button')
+
+
+   function seeless(){
+
+   if(con.style.display == 'block'){
+
+        con.style.display = 'none'
+        see.innerHTML = 'See more'
+       
+    }
+    else{
+      
+        con.style.display = 'block'
+        see.innerHTML = 'See less'
+    }
+
+   }
+
+   function searchcountry()
+   {
+    var query = document.getElementById('searchinput').value
+   if(query.toLowerCase() == 'australia')
+   {
+    window.location.href="Austrailia.html"
+   }
+
+   else if(query.toLowerCase() == 'newzealand')
+   {
+ window.location.href="Newzealand.html"
+   }
+
+   else if(query.toLowerCase() == 'europe')
+   {
+ window.location.href="europe.html"
+   }
+
+   else if(query.toLowerCase() == 'ireland')
+   {
+ window.location.href="ireland.html"
+   }
+
+   else
+   {
+    alert("Page Not Found")
+   }
+   }
+
+  
+
+</script>
+
+</body>
+
+</html>

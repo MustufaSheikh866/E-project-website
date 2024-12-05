@@ -35,6 +35,24 @@ div#collapsibleNavId {
     justify-content: center;
 }
 
+.download a{
+    color: white;
+    text-align: center;
+}
+.download{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
 
 
 .herodiv{
@@ -327,6 +345,181 @@ textarea{
 
 
 
+
+
+.page1{
+    background-color: #DCD5C1;
+    width: 3%;
+    padding: 10px;
+    border-radius: 60px;
+    justify-content: center;
+    display: flex;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.page1 img{
+    width: 25px;
+}
+a{
+    color: black;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #262123;
+    color: #FFF;
+    padding: 100px 0 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+ul{
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.send {
+   flex-direction: column;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+.one p{
+    padding-top: 20px;
+}
+
+.one img{
+    width: 30%;
+}
+
+.num p{
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 60%;
+}
+
+.num h6{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.num h3{
+    padding-bottom: 10px;
+}
+
+.ex h3{
+    padding-bottom: 10px;
+}
+
+.es h3{
+    padding-bottom: 20px;
+}
+
+.num h4{
+    font-size: 15px;
+}
+
+.num h4:hover{
+    color: #EA713C;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.social-icons a:hover{
+    color: #EA713C;
+    transition: 0.3s;
+}
+
+.col-3.num {
+    padding-top: 25px;
+}
+
+.col-3{
+    padding-top: 20px;
+}
+
+.b button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    width: 30%;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.b button:hover{
+    color: #EA713C;
+    background-color: #FFF;
+    transition: 0.3s;
+}
+
+.b button:active{
+    color: #EA713C;
+    background-color: #FFF;
+    transition: 0.3s;
+}
+
+.links li a:hover{
+    color: #EA713C;
+    transition: 0.3s;
+}
+
+.fa-regular, .fa {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.social-icons{
+    padding-top: 20px;
+}
+
+.social-icons a{
+    color: #fff;
+}
+
+.cp{
+    text-align: center;
+}
+
+.placeholder {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    outline: none;
+}
+input.placeholder {
+    cursor: auto;
+}
 
 
 
