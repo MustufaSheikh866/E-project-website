@@ -673,6 +673,10 @@ input.placeholder {
     .msg{
         width: 100%;
     }
+    .row{
+        flex-direction: column;
+        display: flex;
+    }
 
 }
 
@@ -757,5 +761,9 @@ input.placeholder {
     }
     .msg{
         width: 97%;
+    }
+    .row{
+        flex-direction: column;
+        display: flex;
     }
 }
