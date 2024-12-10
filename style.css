@@ -1574,6 +1574,25 @@ input.placeholder {
     .page1 img{
         width: 15px;
     }
+
+
+    .page1 {
+        margin-right: 10px;
+        width: 4%;
+    }
+    .page1 img{
+        width: 15px;
+    }
+    .b button {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        width: 45%;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+    }
 }
 
 
@@ -1744,6 +1763,21 @@ input.placeholder {
     .one img{
         width: 18%;
     }
+
+    .page1 {
+        margin-right: 10px;
+        width: 5.5%;
+    }
+    .page1 img{
+        width: 13px;
+    }
+    .one img{
+        width: 35%;
+    }
+    .col-3{
+        width: 60%;
+    }
+
 }
 
 
@@ -1960,5 +1994,30 @@ input.placeholder {
     }
     .page1 img{
         width: 10px;
+    }
+    .page1 {
+        margin-right: 12px;
+        width: 9%;
+        padding: 8px;
+    }
+    .page1 img{
+        width: 10px;
+    }
+
+    .one img{
+        width: 50%;
+    }
+    .col-3{
+        width: 70%;
+    }
+    .placeholder {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid white;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        outline: none;
     }
 }
