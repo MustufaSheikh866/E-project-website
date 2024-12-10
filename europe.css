@@ -383,6 +383,9 @@ footer {
     padding: 100px 0 10px;
     font-size: 13px;
     line-height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .col h3 {
