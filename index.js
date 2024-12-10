@@ -52,36 +52,50 @@ var swiper = new Swiper(".mySwiper", {
     var email = document.getElementById('email').value
     var message = document.getElementById('message').value
 
-    var details = {
-        name:name,
-        email:email,
-        message:message,
-    }
-    var serviceid = 'service_ex8j8n5'
-    var templateid = 'template_bxewj1e'
-
-    emailjs.send(serviceid,templateid,details)
-    // Toastify({
-
-    //  text: "Your Message has been Send",
-
-    //  duration: 10000
-
-    //  }).showToast();
+    if(name == '' || email == '' || message == '')
+      {
+         emailjs.send(serviceid,templateid,details)
      Toastify({
-        text: "Your Message has been Send",
-        duration: 30000,
-        destination: "https://github.com/apvarun/toastify-js",
-        newWindow: true,
-        close: true,
-        gravity: "top", // `top` or `bottom`
-        position: "center", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
-        style: {
-          background: "linear-gradient(135deg,#73a5ff,#5477f5)",
-        },
-        onClick: function(){} // Callback after click
-    }).showToast();
+         text: "Some Input Fields Are Empty",
+         duration: 3000,
+         newWindow: true,
+         close: true,
+         gravity: "top", // `top` or `bottom`
+         position: "center", // `left`, `center` or `right`
+         stopOnFocus: true, // Prevents dismissing of toast on hover
+         style: {
+           background: "linear-gradient(135deg,red,brown)",
+         },
+         onClick: function(){} // Callback after click
+     }).showToast();
+ 
+      }
+      else
+      {
+         var details = {
+         name:name,
+         email:email,
+         message:message,
+     }
+     var serviceid = 'service_ex8j8n5'
+     var templateid = 'template_bxewj1e'
+ 
+     emailjs.send(serviceid,templateid,details)
+     Toastify({
+         text: "Your Message has been Send",
+         duration: 3000,
+        
+         newWindow: true,
+         close: true,
+         gravity: "top", // `top` or `bottom`
+         position: "center", // `left`, `center` or `right`
+         stopOnFocus: true, // Prevents dismissing of toast on hover
+         style: {
+           background: "linear-gradient(135deg,#73a5ff,#5477f5)",
+         },
+         onClick: function(){} // Callback after click
+     }).showToast();
+      }
    }
 
 
@@ -153,29 +167,51 @@ var swiper = new Swiper(".mySwiper", {
   var email = document.getElementById('email').value
   var message = document.getElementById('message').value
 
-  var details = {
-      name:name,
-      email:email,
-      message:message,
-  }
-  var serviceid = 'service_ex8j8n5'
-  var templateid = 'template_bxewj1e'
+  if(name == '' || email == '' || message == '')
+    {
+       emailjs.send(serviceid,templateid,details)
+   Toastify({
+       text: "Some Input Fields Are Empty",
+       duration: 3000,
+       newWindow: true,
+       close: true,
+       gravity: "top", // `top` or `bottom`
+       position: "center", // `left`, `center` or `right`
+       stopOnFocus: true, // Prevents dismissing of toast on hover
+       style: {
+         background: "linear-gradient(135deg,red,brown)",
+       },
+       onClick: function(){} // Callback after click
+   }).showToast();
 
-  Toastify({
-      text: "Your Message has been Send",
-      duration: 30000,
-      destination: "https://github.com/apvarun/toastify-js",
-      newWindow: true,
-      close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "center", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
-      style: {
-        background: "linear-gradient(135deg,#73a5ff,#5477f5)",
-      },
-      onClick: function(){} // Callback after click
-  }).showToast();
- }
+    }
+    else
+    {
+       var details = {
+       name:name,
+       email:email,
+       message:message,
+   }
+   var serviceid = 'service_ex8j8n5'
+   var templateid = 'template_bxewj1e'
+
+   emailjs.send(serviceid,templateid,details)
+   Toastify({
+       text: "Your Message has been Send",
+       duration: 3000,
+      
+       newWindow: true,
+       close: true,
+       gravity: "top", // `top` or `bottom`
+       position: "center", // `left`, `center` or `right`
+       stopOnFocus: true, // Prevents dismissing of toast on hover
+       style: {
+         background: "linear-gradient(135deg,#73a5ff,#5477f5)",
+       },
+       onClick: function(){} // Callback after click
+   }).showToast();
+    }
+  }
 
 
 //  Ireland js
@@ -192,30 +228,51 @@ function sendMail() {
     var email = document.getElementById('email').value
     var message = document.getElementById('message').value
 
-    var details = {
-        name: name,
-        email: email,
-        message: message,
+    if(name == '' || email == '' || message == '')
+      {
+         emailjs.send(serviceid,templateid,details)
+     Toastify({
+         text: "Some Input Fields Are Empty",
+         duration: 3000,
+         newWindow: true,
+         close: true,
+         gravity: "top", // `top` or `bottom`
+         position: "center", // `left`, `center` or `right`
+         stopOnFocus: true, // Prevents dismissing of toast on hover
+         style: {
+           background: "linear-gradient(135deg,red,brown)",
+         },
+         onClick: function(){} // Callback after click
+     }).showToast();
+ 
+      }
+      else
+      {
+         var details = {
+         name:name,
+         email:email,
+         message:message,
+     }
+     var serviceid = 'service_ex8j8n5'
+     var templateid = 'template_bxewj1e'
+ 
+     emailjs.send(serviceid,templateid,details)
+     Toastify({
+         text: "Your Message has been Send",
+         duration: 3000,
+        
+         newWindow: true,
+         close: true,
+         gravity: "top", // `top` or `bottom`
+         position: "center", // `left`, `center` or `right`
+         stopOnFocus: true, // Prevents dismissing of toast on hover
+         style: {
+           background: "linear-gradient(135deg,#73a5ff,#5477f5)",
+         },
+         onClick: function(){} // Callback after click
+     }).showToast();
+      }
     }
-    var serviceid = 'service_ex8j8n5'
-    var templateid = 'template_bxewj1e'
-
-    emailjs.send(serviceid, templateid, details)
-    Toastify({
-        text: "Your Message has been Send",
-        duration: 30000,
-        destination: "https://github.com/apvarun/toastify-js",
-        newWindow: true,
-        close: true,
-        gravity: "top", // `top` or `bottom`
-        position: "center", // `left`, `center` or `right`
-        stopOnFocus: true, // Prevents dismissing of toast on hover
-        style: {
-            background: "linear-gradient(135deg,#73a5ff,#5477f5)",
-        },
-        onClick: function () { } // Callback after click
-    }).showToast();
-}
 
 
 
@@ -237,30 +294,51 @@ function sendMail() {
   var email = document.getElementById('email').value
   var message = document.getElementById('message').value
 
-  var details = {
-      name:name,
-      email:email,
-      message:message,
-  }
-  var serviceid = 'service_ex8j8n5'
-  var templateid = 'template_bxewj1e'
+  if(name == '' || email == '' || message == '')
+    {
+       emailjs.send(serviceid,templateid,details)
+   Toastify({
+       text: "Some Input Fields Are Empty",
+       duration: 3000,
+       newWindow: true,
+       close: true,
+       gravity: "top", // `top` or `bottom`
+       position: "center", // `left`, `center` or `right`
+       stopOnFocus: true, // Prevents dismissing of toast on hover
+       style: {
+         background: "linear-gradient(135deg,red,brown)",
+       },
+       onClick: function(){} // Callback after click
+   }).showToast();
 
-  emailjs.send(serviceid,templateid,details)
-  Toastify({
-      text: "Your Message has been Send",
-      duration: 30000,
-      destination: "https://github.com/apvarun/toastify-js",
-      newWindow: true,
-      close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "center", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
-      style: {
-        background: "linear-gradient(135deg,#73a5ff,#5477f5)",
-      },
-      onClick: function(){} // Callback after click
-  }).showToast();
- }
+    }
+    else
+    {
+       var details = {
+       name:name,
+       email:email,
+       message:message,
+   }
+   var serviceid = 'service_ex8j8n5'
+   var templateid = 'template_bxewj1e'
+
+   emailjs.send(serviceid,templateid,details)
+   Toastify({
+       text: "Your Message has been Send",
+       duration: 3000,
+      
+       newWindow: true,
+       close: true,
+       gravity: "top", // `top` or `bottom`
+       position: "center", // `left`, `center` or `right`
+       stopOnFocus: true, // Prevents dismissing of toast on hover
+       style: {
+         background: "linear-gradient(135deg,#73a5ff,#5477f5)",
+       },
+       onClick: function(){} // Callback after click
+   }).showToast();
+    }
+  }
 
 
 
@@ -283,27 +361,48 @@ function sendMail() {
   var email = document.getElementById('email').value
   var message = document.getElementById('message').value
 
-  var details = {
-      name:name,
-      email:email,
-      message:message,
-  }
-  var serviceid = 'service_ex8j8n5'
-  var templateid = 'template_bxewj1e'
+  if(name == '' || email == '' || message == '')
+    {
+       emailjs.send(serviceid,templateid,details)
+   Toastify({
+       text: "Some Input Fields Are Empty",
+       duration: 3000,
+       newWindow: true,
+       close: true,
+       gravity: "top", // `top` or `bottom`
+       position: "center", // `left`, `center` or `right`
+       stopOnFocus: true, // Prevents dismissing of toast on hover
+       style: {
+         background: "linear-gradient(135deg,red,brown)",
+       },
+       onClick: function(){} // Callback after click
+   }).showToast();
 
-  emailjs.send(serviceid,templateid,details)
-  Toastify({
-      text: "Your Message has been Send",
-      duration: 30000,
-      destination: "https://github.com/apvarun/toastify-js",
-      newWindow: true,
-      close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "center", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
-      style: {
-        background: "linear-gradient(135deg,#73a5ff,#5477f5)",
-      },
-      onClick: function(){} // Callback after click
-  }).showToast();
- }
+    }
+    else
+    {
+       var details = {
+       name:name,
+       email:email,
+       message:message,
+   }
+   var serviceid = 'service_ex8j8n5'
+   var templateid = 'template_bxewj1e'
+
+   emailjs.send(serviceid,templateid,details)
+   Toastify({
+       text: "Your Message has been Send",
+       duration: 3000,
+      
+       newWindow: true,
+       close: true,
+       gravity: "top", // `top` or `bottom`
+       position: "center", // `left`, `center` or `right`
+       stopOnFocus: true, // Prevents dismissing of toast on hover
+       style: {
+         background: "linear-gradient(135deg,#73a5ff,#5477f5)",
+       },
+       onClick: function(){} // Callback after click
+   }).showToast();
+    }
+  }
