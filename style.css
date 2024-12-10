@@ -1235,23 +1235,30 @@ textarea{
 }
 
 
+.secbutton{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
 .page1{
     background-color: #DCD5C1;
-    width: 3%;
-    padding: 10px;
-    border-radius: 60px;
+    width: 13%;
+    padding: 9px;
+    border-radius: 10px;
     justify-content: center;
     display: flex;
-    float: right;
+    /* float: right;
     margin-right: 20px;
     margin-bottom: 20px;
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 0; */
 }
 .page1 img{
-    width: 25px;
+    width: 15px;
 }
+
 
 
 footer {
@@ -1351,7 +1358,7 @@ ul li a {
     padding-right: 10px;
     padding-bottom: 7px;
     padding-top: 7px;
-    width: 30%;
+    width: 100%;
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
