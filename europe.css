@@ -81,6 +81,51 @@ div#collapsibleNavId {
 
 
 
+.modal {
+    --bs-modal-zindex: 1055;
+    --bs-modal-width: 1000px;
+    --bs-modal-padding: 1rem;
+    --bs-modal-margin: 0.5rem;
+    --bs-modal-color: ;
+    --bs-modal-bg: var(--bs-body-bg);
+    --bs-modal-border-color: var(--bs-border-color-translucent);
+    --bs-modal-border-width: var(--bs-border-width);
+    --bs-modal-border-radius: var(--bs-border-radius-lg);
+    --bs-modal-box-shadow: var(--bs-box-shadow-sm);
+    --bs-modal-inner-border-radius: calc(var(--bs-border-radius-lg) - (var(--bs-border-width)));
+    --bs-modal-header-padding-x: 1rem;
+    --bs-modal-header-padding-y: 1rem;
+    --bs-modal-header-padding: 1rem 1rem;
+    --bs-modal-header-border-color: var(--bs-border-color);
+    --bs-modal-header-border-width: var(--bs-border-width);
+    --bs-modal-title-line-height: 1.5;
+    --bs-modal-footer-gap: 0.5rem;
+    --bs-modal-footer-bg: ;
+    --bs-modal-footer-border-color: var(--bs-border-color);
+    --bs-modal-footer-border-width: var(--bs-border-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--bs-modal-zindex);
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.pic{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.pic img{
+    width: 48%;
+    
+}
+
+
 
 .row .side{
     padding-bottom: 3em;
@@ -136,14 +181,15 @@ div#collapsibleNavId {
 }
 
 
-.side1 p{
+.side12 p{
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
     line-height: 40px;
+    padding-top: 10px;
 }
-.side1 h4{
+.side12 h4{
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -152,7 +198,7 @@ div#collapsibleNavId {
     margin-bottom: 20px;
     padding-top: 2em;
 }
-.side1 h5{
+.side12 h5{
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
