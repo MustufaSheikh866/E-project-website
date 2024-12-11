@@ -1,8 +1,4 @@
-body{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+
 
 
 .navbar-expand-sm .navbar-nav {
@@ -80,7 +76,6 @@ div#collapsibleNavId {
 
 
 
-
 .modal {
     --bs-modal-zindex: 1055;
     --bs-modal-width: 1000px;
@@ -140,7 +135,6 @@ div#collapsibleNavId {
     border-radius: var(--bs-modal-border-radius);
     outline: 0;
 }
-
 
 
 .row .side{
@@ -415,7 +409,7 @@ textarea{
 
 
 
-.page1{
+/* .page1{
     background-color: #DCD5C1;
     width: 3%;
     padding: 10px;
@@ -431,9 +425,34 @@ textarea{
 }
 .page1 img{
     width: 25px;
-}
+} */
 a{
     color: black;
+}
+
+
+.secbutton{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.page1{
+    background-color: #DCD5C1;
+    width: 12%;
+    padding: 9px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    /* float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0; */
+}
+.page1 img{
+    width: 15px;
 }
 
 
@@ -538,7 +557,7 @@ ul li a {
     padding-right: 10px;
     padding-bottom: 7px;
     padding-top: 7px;
-    width: 30%;
+    width: 100%;
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
@@ -654,6 +673,7 @@ input.placeholder {
     .msg{
         width: 100%;
     }
+
     .page1 {
         margin-right: 10px;
         width: 4%;
@@ -666,11 +686,35 @@ input.placeholder {
         padding-right: 10px;
         padding-bottom: 7px;
         padding-top: 7px;
-        width: 45%;
+        width: 100%;
         background-color: transparent;
         color: #fff;
         border: 1px solid #fff;
     }
+    .secbutton{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .page1{
+        background-color: #DCD5C1;
+        width: 18%;
+        padding: 9px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        /* float: right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: fixed;
+        bottom: 0;
+        right: 0; */
+    }
+    .page1 img{
+        width: 15px;
+    }
+
 
     
 }
@@ -758,10 +802,6 @@ input.placeholder {
     .msg{
         width: 100%;
     }
-    .row{
-        flex-direction: column;
-        display: flex;
-    }
     .page1 {
         margin-right: 10px;
         width: 5.5%;
@@ -770,12 +810,45 @@ input.placeholder {
         width: 13px;
     }
     .one img{
-        width: 35%;
+        width: 20%;
     }
     .col-3{
-        width: 60%;
+        width: 100%;
     }
 
+    .secbutton{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .page1{
+        background-color: #DCD5C1;
+        width: 5%;
+        padding: 9px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        /* float: right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: fixed;
+        bottom: 0;
+        right: 0; */
+    }
+    .page1 img{
+        width: 15px;
+    }
+    .b button {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        width: 100%;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+    }
 
 }
 
@@ -861,10 +934,6 @@ input.placeholder {
     .msg{
         width: 97%;
     }
-    .row{
-        flex-direction: column;
-        display: flex;
-    }
     .page1 {
         margin-right: 12px;
         width: 9%;
@@ -889,5 +958,38 @@ input.placeholder {
         padding-bottom: 8px;
         padding-top: 8px;
         outline: none;
+    }
+    .secbutton{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .page1{
+        background-color: #DCD5C1;
+        width: 15%;
+        padding: 9px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        /* float: right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: fixed;
+        bottom: 0;
+        right: 0; */
+    }
+    .page1 img{
+        width: 15px;
+    }
+    .b button {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        width: 100%;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
     }
 }

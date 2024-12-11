@@ -1,34 +1,29 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Newzealand</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"/>
-        <link rel="stylesheet" href="Newzealand.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    </head>
+<head>
+    <title>Newzealand</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <body>
-        <header>
-            <!-- Navbar Starting -->
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Newzealand.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar Starting -->
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <div class="container mainheader">
                 <a href="index.html"> <img src="images/Untitled-removebg-preview.png1.png" class="image" alt=""></a>
@@ -66,117 +61,284 @@
                             </div>
                         </li>
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
         <!-- Navbar Ending -->
-        </header>
-        <main>
+    </header>
+    <main>
 
-            <div class="herodiv">
-                <div class="hero1">
-                    <h1>Newzealand</h1>
-                    <div class="download">
-                        <h6>download</h6>
-                        <a href="PDF Download/NewZealand Beaches.pdf" download> <i class="fa fa-download"
-                                style="font-size: 22px;"></i></a>
-                    </div>
+        <div class="herodiv">
+            <div class="hero1">
+                <h1>Newzealand</h1>
+                <div class="download">
+                    <h6>download</h6>
+                    <a href="PDF Download/Australia Beaches.pdf" download> <i class="fa fa-download"
+                            style="font-size: 22px;"></i></a>
                 </div>
             </div>
-            <div class="customer" >
-                <div class="container-fluid" id="north">
+        </div>
+        <div class="customer">
+            <div class="container-fluid" id="north">
 
-                    <!-- north side -->
-                     <div class="container">
+                <!-- north side -->
+                <div class="container">
                     <div class="row side">
                         <div class="side1 col-4">
                             <img src="images/nz north1.jpg" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Ninety Mile Beach (Northland)</h4>
                             <p>Despite its name, Ninety Mile Beach is about 55 miles (88 km) long. It's a remote,
                                 stunning stretch of golden sand on the west coast of the North Island, famous for its
                                 dramatic sunsets, surf, and as a place for adventure activities like sandboarding.
                                 Highlights: Surfing, fishing, and the opportunity to spot dolphins.</p>
 
-                                <div class="btnn">
+                            <!-- <div class="btnn">
                                 <button>See more</button>
+                                </div> -->
+
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalId">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalId" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleId" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Ninety Mile Beach (Northland)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/63.jpg" alt="">
+                                                    <img src="images/64.jpg" alt="">
+                                                </div>
+                                                <p>Ninety Mile Beach is on the western coast of the far north of the
+                                                    North Island of New Zealand. The beach is actually 88 kilometres
+                                                    55 miles long. Its southern end is close to the headland of
+                                                    Tauroa Point, to the west of Ahipara Bay, near Kaitaia. From there
+                                                    it sweeps briefly northeast before running northwest along the
+                                                    Aupōuri Peninsula for the majority of its length. It ends at
+                                                    Tiriparepa Scott Point, 5 kilometres 3 mi south of Cape Maria
+                                                    van Diemen and about 10 kilometres 6 mi south of Cape Reinga Te
+                                                    Rerenga Wairua.
+
+                                                    The beach is officially a public highway and is used as an
+                                                    alternative to State Highway 1 north of Kaitaia, though mainly for
+                                                    tourist trips, or when the main road is closed due to landslides or
+                                                    floods.citation needed The beach and the dunes at Te Paki in the
+                                                    north are a tourist destination. The Te Paki dunes, which look much
+                                                    like a desert landscape, are used for sandboarding.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal"
+                                                data-bs-target="#modalId">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side2">
 
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Bay of Islands (Northland)</h4>
                             <p>The Bay of Islands is a gorgeous, sheltered area with clear turquoise waters, numerous
                                 islands, and secluded beaches. It’s a popular spot for sailing, swimming, and exploring
                                 the abundant marine life.
                                 Highlights: Swimming with dolphins, snorkeling, sailing, and relaxing on the pristine
                                 beaches.</p>
-                            
-                                <div class="btnn">
-                                    <button>See more</button>
+
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Bay of Islands (Northland)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/65.avif" alt="">
+                                                    <img src="images/66.jpg" alt="">
+                                                </div>
+                                                <p>The Bay of Islands is an area on the east coast of the Far North District of the North Island of New Zealand. It is one of the most popular fishing, sailing and tourist destinations in the country, and has been renowned internationally for its big-game fishing since American author Zane Grey publicised it in the 1930s. It is 60 km 37 mi north-west of the city of Whangārei. Cape Reinga, at the northern tip of the country, is about 210 km 130 mi by road further to the north-west.
+
+                                                    The bay is an irregularly-shaped 16 km 10 mi-wide, 260 km2 100 sq mi drowned valley system and a natural harbour. It contains 144 islands, of which the largest is Urupukapuka, and numerous peninsulas and inlets. The three largest inlets are Waikare Inlet in the south, and Kerikeri and Te Puna Mangonui inlets in the north-west.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+
                         </div>
 
                         <div class="side1 col-4">
                             <img src="images/nz north2.jpg" alt="">
                         </div>
-                        
+
 
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
-                <div class="container-fluid">
-                    <div class="container">
+            <div class="container-fluid">
+                <div class="container">
                     <div class="row side3">
                         <div class="side1 col-4">
                             <img src="images/nz north3.webp" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Hot Water Beach (Coromandel Peninsula)</h4>
                             <p>Known for its geothermal activity, Hot Water Beach allows visitors to dig their own hot
                                 pool in the sand at low tide. The striking contrast of the hot, mineral-rich water and
                                 the cool ocean makes for a unique beach experience.
-                                Highlights: Digging your own hot pool, surfing, and exploring the nearby Cathedral Cove.</p>
+                                Highlights: Digging your own hot pool, surfing, and exploring the nearby Cathedral Cove.
+                            </p>
 
-                                <div class="btnn">
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID1">
                                 <button>See more</button>
                             </div>
-                        
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID1" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Hot Water Beach (Coromandel Peninsula)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/68.jpg" alt="">
+                                                    <img src="images/67.jpg" alt="">
+                                                </div>
+                                                <p>Hot Water Beach is a beach on the east coast of the Coromandel Peninsula, New Zealand, just south of Mercury Bay.[1] It is approximately 12 kilometres south east of Whitianga, and approximately 175 kilometres from Auckland by car. Its name comes from underground hot springs that filter up through the sand between the high and low water tidal reaches. The beach is a popular destination both for locals and tourists visiting New Zealand. Annual visitor numbers have been estimated at 700,000, making it one of the most popular geothermal attractions in the Waikato region.
+
+                                                    Care needs to be exercised as the location of the hot springs are not far from the sea even at low tide, and visitors may be caught unaware by the large breaking waves. Hot Water Beach is known for its dangerous rip currents, holes and large waves. Signs at the beach advise swimmers not to swim within 50 m either side of the off-shore rocks (opposite the springs), and to only swim between the flags of the Hot Water Beach Lifeguard Service.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID1">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side4">
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Raglan (Waikato)</h4>
                             <p>Raglan is a laid-back surf town famous for its long sandy beaches and consistent surf
                                 breaks. Its beaches like Manu Bay are world-renowned among surfers, and the surrounding
                                 landscape, with lush hills, adds to the charm.
                                 Highlights: Surfing, beach walks, and the scenic views of the surrounding hills and
                                 ocean.</p>
-                                <div class="btnn">
-                                    <button>See more</button>
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID2">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID2" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Raglan (Waikato)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/69.jpg" alt="">
+                                                    <img src="images/70.webp" alt="">
+                                                </div>
+                                                <p>A government subsidy was given in 1878, to promote the start of regular steamer services from Manukau Harbour, which took about 8 hours. Until the main road was metalled in 1921, most goods travelled by sea. The wharf remained important until the 1950s, peaking in 1954, with 15,462 tons, handled by 38 ships. One of the problems was the shallow bar at the entrance to the harbour. For example, the Holmburn was stuck there for 26 hours in 1962. However, like other small ports, the main problem was the introduction of the inter-island roll-on roll-off ferries in 1962, with 40 Watersiders Union members made redundant in 1972, though cement volumes increased to a peak of 41,351 tons in 1974. Again the bar was a problem for the larger cement ships and, since John Wilson 1961-85 246 ft 75 m long, 42 ft 13 m wide, 18.5 ft 5.6 m deep, 1679 Grt made the last call on 7 July 1982, the only goods landed at the harbour have been fish from the fishing boats.
+
+                                                    Until 1874 goods were transferred off the beach below Cliff Street and small boats moored in a boat harbour, cut off from the harbour by construction of a sluice-gate under Wallis Street causeway in about 1918.
+                                                    The new road gave access to a new dairy factory and the wharf opened in 1921. A small wooden jetty and storage shed beside Cliff Street was built in 1874</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID2">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            
+                            </div>
+
                         </div>
 
                         <div class="side1 col-4">
@@ -185,106 +347,264 @@
 
                     </div>
                 </div>
-                </div>
-                <!-- north side -->
+            </div>
+            <!-- north side -->
 
 
 
 
 
-                <div class="container-fluid" id="south">
-                    
-                    <!-- South side -->
-                     <div class="container">
+            <div class="container-fluid" id="south">
+
+                <!-- South side -->
+                <div class="container">
                     <div class="row side">
                         <div class="side1 col-4">
                             <img src="images/nz south1.jpg" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Abel Tasman National Park (Golden Bay)</h4>
                             <p> Abel Tasman is renowned for its golden sandy beaches, clear turquoise waters, and
                                 lush native forests. This coastal area is perfect for those seeking a mix of
                                 relaxation and adventure, with options for hiking, kayaking, and boat cruises.
                                 Highlights: Onetahuti Beach, kayaking, scenic walks, and the chance to see seals and
                                 marine life. </p>
-
-                                <div class="btnn">
+                                <!-- 
+                            <div class="btnn">
                                 <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID3">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID3" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Abel Tasman National Park (Golden Bay)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/71.webp" alt="">
+                                                    <img src="images/72.jpg" alt="">
+                                                </div>
+                                                <p>Abel Tasman National Park is a national park at the north end of New Zealand's South Island. It covers 237.1 km2 (91.5 sq mi) of land between Golden Bay / Mohua and Tasman Bay / Te Tai-o-Aorere, making it the smallest of New Zealand's national parks. Despite this, the park is one of the most visited, partially due to the popularity of the Abel Tasman Coast Track which spans 60 km (37 mi) along the eastern and northern coastal areas of the park.
+
+                                                    The area of the park has seen human interaction for approximately 700 years, with evidence of habitation dating back to early Māori iwi such as Waitaha and Rapuwai during the early periods of Māori habitation in New Zealand. Following the arrival of Pākehā in the 19th century, the area saw widespread deforestation, farming, and quarrying, significantly modifying the area's environment. As a result of this, the park is one of the most modified landscapes of any of New Zealand's national parks, with management of the park largely focusing on regeneration and restoration of the traditional ecosystem.
+                                                    
+                                                    The park was first established in 1942 to commemorate the 300th anniversary of Abel Tasman's 1642 visit in New Zealand, when he became the first European to sight the islands. It has since been progressively expanded from its original borders, the most recent of which involved the addition of 7 hectares (17 acres) in Awaroa Inlet after a successful crowdfunding campaign.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID3">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side2">
 
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Wharariki Beach (Golden Bay)</h4>
                             <p>Wharariki Beach is a hidden gem, known for its dramatic coastal landscape, featuring
                                 towering sand dunes, wind-sculpted rock formations, and huge, arching cliffs. The
                                 beach is often uncrowded, offering an idyllic escape into nature.
                                 Highlights: Wild beauty, wildlife (seals and seabirds), and stunning views of
                                 natural rock arches.</p>
-                            
-                                <div class="btnn">
-                                    <button>See more</button>
+
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID4">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID4" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Wharariki Beach (Golden Bay)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/73.jpg" alt="">
+                                                    <img src="images/74.jpg" alt="">
+                                                </div>
+                                                <p>The north-facing sandy beach is accessible only via a 20-minute walking track from the end of Wharariki Road. The road end is approximately 4 kilometres 2.5 mi from the nearest settlement, the small village of Pūponga. A camping ground is located along Wharariki Road, but the area surrounding the beach is devoid of any development. Wharariki Beach is bordered by Puponga Farm Park, with the wider area more or less surrounded by the northern end of Kahurangi National Park.
+
+                                                    The beach is flanked to the east and west by cliffs, but due to the flat topography of the area behind it, the beach area and the grassy dunes behind it are quite exposed to winds.
+
+                                                    Wharariki Beach is perhaps best known for the Archway Islands, a small archipelago of four islands ranging from the beachside part of the beach at low tide to roughly 250 metres 820 ft offshore. The islands are featured frequently in photos in New Zealand landscape calendars. It is also the default lock screen image on Microsoft's Windows 10 operating system.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID4">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+
                         </div>
 
                         <div class="side1 col-4">
                             <img src="images/nz south2.avif" alt="">
                         </div>
-                        
+
 
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
-                <div class="container-fluid">
-                    <div class="container">
+            <div class="container-fluid">
+                <div class="container">
                     <div class="row side3">
                         <div class="side1 col-4">
                             <img src="images/nz south3.jpg" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Kaiteriteri Beach (Tasman Bay)</h4>
                             <p>Kaiteriteri Beach offers a perfect blend of golden sand, calm blue waters, and the
                                 backdrop of rolling hills. It’s a family-friendly beach ideal for swimming, boating,
                                 and enjoying the serene atmosphere.
                                 Highlights: Swimming, kayaking, and boat tours to nearby islands.</p>
 
-                                <div class="btnn">
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID5">
                                 <button>See more</button>
                             </div>
-                        
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID5" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Kaiteriteri Beach (Tasman Bay)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/75.jpg" alt="">
+                                                    <img src="images/76.jpg" alt="">
+                                                </div>
+                                                <p>There is a wonderful little walk up the small headland at the southern end of the beach that goes over to Little Kaiteri, the bay you can see from the main beach. Even when the main beach is full of people desperately looking for some space to spread their towels out, Little Kaiteri can be more sparsely populated.
+
+                                                    At the other end of Little Kaiteriteri is another, longer walk over a hill to Dummy Bay and Stephens Bays. Both of these beaches are magical, and are mainly frequently by locals. (Please don’t tell the locals you encounter on these beaches there where you got this information from. I get enough hate mail as it is!).
+
+                                                    As mentioned, the estuary is a favourite swimming spot and particularly good for kids, although the currents do become stronger during certain tidal phases.
+
+                                                    If you have younger children, then Kaiteriteri is also a good place for kids kayaking and other water sports. Waka Tours Abel Tasman operates from Kaiteriteri, and have fantastic activities for adults and kids of all ages.  Waka are traditional Maori canoes. Waka Tours include a paddle and some excellent insights into local Maori culture and history.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID5">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side4">
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Curio Bay (Catlins Coast)</h4>
                             <p>Curio Bay is famous for its unique blend of natural beauty, including dramatic
                                 cliffs, pristine beaches, and fossilized trees. It’s also a place where you can spot
                                 wildlife like dolphins and sea lions, making it a nature-lover’s paradise.
                                 Highlights: Fossils, wildlife sightings (including Hector’s dolphins), and scenic
                                 coastal walks</p>
-                                <div class="btnn">
-                                    <button>See more</button>
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID6">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID6" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Curio Bay (Catlins Coast)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/77.jpg" alt="">
+                                                    <img src="images/78.jpg" alt="">
+                                                </div>
+                                                <p>Curio Bay is a coastal embayment in the Southland District of New Zealand, best known as the site of a petrified forest some 180 million years old. It also hosts a yellow-eyed penguin colony, arguably the rarest of penguin species, with approximately 1600 breeding pairs in the extant population. The bay, along with neighbouring Porpoise Bay, is home to the endemic Hector's dolphin.[1] Southern right whales are occasionally observed offshore, as on numerous parts of the country's coast.[2] Located near the southernmost point of the South Island,[3] Curio Bay is one of the major attractions in the Catlins, attracting around 100,000 visitors per year.[4] The town of Waikawa has an information centre for tourists.
+
+                                                    The fossilised forest grew at a time of semi-tropical climate and before grasses and flowering plants had come into existence. The original forest of cycads, conifers and ferns was buried by massive floods of ash and volcanic debris either directly from a volcanic eruption or from later heavy rain on a barren volcanic mountain. Distinct bands of fossilised vegetation exposed in the cliff face indicate that in between such floods, the forest grew back at least four times over a period of some 20,000 years. Following this, the area remained buried over millions of years.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID6">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            
+                            </div>
+
                         </div>
 
                         <div class="side1 col-4">
@@ -293,19 +613,19 @@
 
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
-                <div class="container-fluid" id="east">
+            <div class="container-fluid" id="east">
 
-                    <!-- East side -->
-                     <div class="container">
+                <!-- East side -->
+                <div class="container">
                     <div class="row side">
                         <div class="side1 col-4">
                             <img src="images/nz east1.jpg" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Waimarama Beach (Hawke's Bay)</h4>
                             <p> Waimarama Beach is known for its golden sands and pristine waters, with a
                                 backdrop of rolling hills and farmland. It's a fantastic spot for swimming,
@@ -314,23 +634,65 @@
                                 Highlights: Swimming, beach walks, and stunning views of the Hawke's Bay
                                 coastline. </p>
 
-                                <div class="btnn">
+                            <!-- <div class="btnn">
                                 <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID7">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID7" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Waimarama Beach (Hawke's Bay)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/79.jpg" alt="">
+                                                    <img src="images/80.jpg">
+                                                </div>
+                                                <p>Waimārama is a popular surf beach, known as a beach break on a sandy beach, with a rocky point. It offers both left and right handers and conditions are often suitable for surfers of all levels. The beach has strong rip currents, and is patrolled by surf lifeguards at weekends from November to March.
+
+                                                    Motu-o-Kura or Bare Island is located just off the coast and is a popular spot for fishing and diving. The beach town attracts people from across the region, with a restaurant, bar and shop. It also has about 240 permanent residents, with many former holiday baches becoming homes.
+                                                    
+                                                    On 28 April 2011, heavy rain hit the village, causing floods and mudslides.
+
+                                                    Waimārama had a population of 216 at the 2018 New Zealand census, an increase of 33 people 18.0% since the 2013 census, and a decrease of 6 people −2.7% since the 2006 census. There were 84 households, comprising 111 males and 105 females, giving a sex ratio of 1.06 males per female. The median age was 52.6 years compared with 37.4 years nationally, with 36 people 16.7% aged under 15 years, 30 13.9% aged 15 to 29, 105 48.6% aged 30 to 64, and 48 22.2% aged 65 or older.
+                                                   </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID7">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side2">
 
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Muriwai Beach (Auckland)</h4>
                             <p>Muriwai Beach is famous for its dramatic black sand, rugged cliffs, and powerful
                                 surf. It's also home to a large colony of gannets, which can be seen nesting on
@@ -338,30 +700,73 @@
                                 views.
                                 Highlights: Surfing, birdwatching (gannet colony), and breathtaking views from
                                 the cliffs.</p>
-                            
-                                <div class="btnn">
-                                    <button>See more</button>
+
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID8">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID8" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Muriwai Beach (Auckland)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/81.jpg" alt="">
+                                                    <img src="images/82.jpg" alt="">
+                                                </div>
+                                                <p>The Muriwai area was uplifted from the sea floor between 3 and 5 million years ago. Much of the landscape is formed by remnants of the eastern side of the Waitākere Volcano, notably the pillow lava formations seen along the cliffs south of Muriwai beach. The area is primarily formed by sand, sedimentary rock and piha conglomerate. Cliff walls dominate much of southern Muriwai. Muriwai Beach has black sand, caused by the iron content derived from the ancient volcanoes in the area, including the large Kaipara Volcano which was situated offshore from the Kaipara Heads, and erupted 23-16 million years ago. The black sand is moved up the west coast of the North Island by longshore drift.
+
+                                                    Oaia Island is an island located off the coast of Muriwai.
+
+                                                    During the late 19th century, John Foster established a flax mill at Muriwai, stopping in 1893 when this became less economically viable. In 1894 Muriwai Valley School was established. The school only operated part-time, due to the school's rural location. At the turn of the century, politician and Mayor of Auckland City Edwin Mitchelson constructed a wooden mansion at Muriwai which he named Oaia, referencing adjacent Oaia Island.
+                                                   
+                                                   </p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID8">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+
                         </div>
 
                         <div class="side1 col-4">
                             <img src="images/nz east2.jpg" alt="">
                         </div>
-                        
+
 
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
-                <div class="container-fluid">
-                    <div class="container">
+            <div class="container-fluid">
+                <div class="container">
                     <div class="row side3">
                         <div class="side1 col-4">
                             <img src="images/nz east3.jpg" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Mahia Beach (Hawke's Bay)</h4>
                             <p> Mahia Beach offers golden sands, clear waters, and a relaxed atmosphere, making
                                 it perfect for swimming, fishing, and sunbathing. The area is less
@@ -370,20 +775,61 @@
                                 Highlights: Swimming, fishing, and enjoying the quiet, natural beauty of the
                                 Mahia Peninsula.</p>
 
-                                <div class="btnn">
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID9">
                                 <button>See more</button>
                             </div>
-                        
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID9" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Mahia Beach (Hawke's Bay)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/83.jpg" alt="">
+                                                    <img src="images/84.jpg" alt="">
+                                                </div>
+                                                <p>Māhia Peninsula Māori: Te Māhia is located on the east coast of New Zealand's North Island, in the Hawke's Bay region, between the towns of Wairoa and Gisborne.
+
+                                                    It includes Rocket Lab's Launch Complex 1, located near Ahuriri Point at the southern tip of the Māhia Peninsula, for launching its Electron rockets.
+                                                    
+                                                    Since 2018, it has been used as a commercial launcher of small satellites in the range of 135–235 kg, and miniature satellites called CubeSats. New Zealand's first orbital space launch took place from Launch Complex 1 on 21 January 2018.
+                                                    
+                                                    Māhia Beach, which is on the northeast coast of the peninsula, is described by Statistics New Zealand as a rural settlement. It covers 4.05 km2 1.56 sq mi and had an estimated population of 230 as of June 2024, with a population density of 57 people per km2. It is part of the larger Mahia statistical area.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID9">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side4">
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Castlepoint Beach (Wairarapa)</h4>
                             <p>Castlepoint Beach is a stunning, remote location with white sand, clear blue
                                 waters, and dramatic coastal features. The iconic Castle Rock, a rocky outcrop,
@@ -392,10 +838,51 @@
                                 lighthouse.
                                 Highlights: Castle Rock views, lighthouse, swimming, and hiking along the
                                 coastline.</p>
-                                <div class="btnn">
-                                    <button>See more</button>
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID10">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID10" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Castlepoint Beach (Wairarapa)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/85.webp" alt="">
+                                                    <img src="images/86.webp" alt="">
+                                                </div>
+                                                <p>Castlepoint is a small beachside settlement on the Wairarapa coast of the Wellington Region of New Zealand. It is home to a lighthouse which stands near the top of the northern end of a reef. The reef is about one kilometre long. At the southern end of the reef, there is an island known locally as "seagull island", due to its large population of seagulls. The southern side of Castle Rock is known as Christmas Bay. Castlepoint is approximately one hour's drive from Masterton.
+
+                                                    Castlepoint was so named in 1770 by Captain Cook who was struck by the similarities of Castle Rock to the battlements of a castle. The Maori name for the area is Rangiwhakaoma, which translates as 'where the sky runs'. Smaller cetaceans such as dolphins frequent around Castlepoint while larger whales such as southern right whales and humpback whales may be visible from the shores during their migration seasons. A book chronicling the history of Castlepoint, including Castlepoint Station, Castle Point Lighthouse and the local fishing industry was published in October 2010 by Hedleys Books of Masterton.
+                                                    
+                                                    Castle Rock is a landmark in Castlepoint and is 162m high. It includes a walk through woods and over bridges and is approximately 45 minutes long.
+                                                    
+                                                    Mataikona Sand Dunes are an area of large sand dunes approximately 30 minutes north of Castlepoint towards the Matakona River mouth.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID10">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            
+                            </div>
+
                         </div>
 
                         <div class="side1 col-4">
@@ -404,22 +891,22 @@
 
                     </div>
                 </div>
-                </div>
-                <!-- East side -->
+            </div>
+            <!-- East side -->
 
 
 
 
 
-                <div class="container-fluid" id="west">
-                    
-                    <!-- West side -->
-                     <div class="container">
+            <div class="container-fluid" id="west">
+
+                <!-- West side -->
+                <div class="container">
                     <div class="row side">
                         <div class="side1 col-4">
                             <img src="images/nz west1.jpg" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Punakaiki Beach (West Coast)</h4>
                             <p>Punakaiki Beach is set against the backdrop of the famous Pancake Rocks and
                                 blowholes. The beach features wild, surf-swept waters and dark sands. The
@@ -427,53 +914,133 @@
                                 making it one of the most scenic spots on the West Coast.
                                 Highlights: The Pancake Rocks, blowholes, and dramatic coastline views. </p>
 
-                                <div class="btnn">
+                            <!-- <div class="btnn">
                                 <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID11">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID11" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Punakaiki Beach (West Coast)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/87.jpg" alt="">
+                                                    <img src="images/88.jpg">
+                                                </div>
+                                                <p>Punakaiki is the home of the Pancake Rocks and a base for exploring the Paparoa National Park. It’s a place of luxuriant coastal forest, fantastic limestone cliffs and canyons, mysterious caves, pristine rivers, and an absolutely spectacular coastline.
+
+                                                    Stay a while so you can explore everything on offer. There’s a great range of accommodation, superb short and long walks including the Paparoa Track, rivers to swim, waves to surf, fabulous sunsets and sparkling night skies.
+                                                    
+                                                    Visit the Paparoa National Park Visitor Centre to find out more about local highlights and hidden gems.
+
+                                                    It takes a while to make a pancake on the West Coast of New Zealand — 30 million years, the experts say! You’ll see stacks of them at Punakaiki but that’s just one of the true wonders of nature waiting to be found along the Great Coast Road.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID11">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                            
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side2">
 
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Bethells Beach (Auckland)</h4>
                             <p>Bethells Beach is known for its dramatic black sand and powerful surf. It’s
                                 surrounded by lush bushland, and the beach is less commercialized, offering
                                 a more serene and natural environment. The nearby Lake Wainamu adds to the
                                 charm, with its unique dunes and forested landscapes.
                                 Highlights: Black sand, surf, the nearby lake, and scenic walking trails.</p>
-                            
-                                <div class="btnn">
-                                    <button>See more</button>
+
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID12">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID12" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Bethells Beach (Auckland)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/89.jpg" alt="">
+                                                    <img src="images/90.jpg">
+                                                </div>
+                                                <p>Te Henga, or Bethells Beach, is a coastal community in West Auckland, New Zealand. The Māori name for the area, "Te Henga", is in reference to the long foredunes which run along the beach and look like the Henga or gunwale of an upturned waka hull. This name originally applied to a wide area of the lower Waitakere River valley, but during the early 1900s the area became popular with visiting European immigrants who began to refer to the area as "Bethells Beach" after the Bethell Family who live there and still own much of the area. In 1976 the New Zealand Geographic Board officially named the area "Te Henga (Bethells Beach)".
+
+                                                    The beach is approximately 37 km (23 mi) west of Auckland City, at the mouth of the Waitakere River where it flows into the Tasman Sea. One of several popular resorts in the area (others include Muriwai, Piha and Karekare), it is rated the 4th most dangerous beach in New Zealand to swim at due to its strong rips and currents. There have been many fatalities including in 2009, Rugby League star Sonny Fai, who was never located. 
+
+                                                    The Te Henga Valley shows evidence of human settlement dating back many centuries. Carbon dating of midden shells at Kauwahaia Island date settlement back to at least the year 1600.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID12">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
                         </div>
 
                         <div class="side1 col-4">
                             <img src="images/nz west2.jpg" alt="">
                         </div>
-                        
+
 
                     </div>
                 </div>
-                </div>
+            </div>
 
 
 
-                <div class="container-fluid">
-                    <div class="container">
+            <div class="container-fluid">
+                <div class="container">
                     <div class="row side3">
                         <div class="side1 col-4">
                             <img src="images/nz west3.jpg" alt="">
                         </div>
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4>Westport Beach (West Coast)</h4>
                             <p> Westport Beach offers expansive golden sands and is a great spot for beach
                                 walks, bird watching, and surf casting. The beach is wide and uncrowded,
@@ -482,20 +1049,64 @@
                                 Highlights: Uncrowded golden sands, bird watching, seal colony at Tauranga
                                 Bay.</p>
 
-                                <div class="btnn">
+                            <!-- <div class="btnn">
                                 <button>See more</button>
+                            </div> -->
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID13">
+                            <button>See more</button>
+                        </div>
+
+                        <!-- Modal Body-->
+                        <div class="modal fade" id="modalID13" tabindex="-1" role="dialog"
+                            aria-labelledby="modalTitleID" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modalTitleID">
+                                            Westport Beach (West Coast)
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="pic">
+                                                <img src="images/91.jpg">
+                                                <img src="images/92.jpg">
+                                            </div>
+                                            <p>West Port Beach in Argyll is one of the most beautiful beaches in the west coast of Scotland.
+
+                                                Stretching over 6 miles, Westport Beach boasts the Machrihanish Dunes as its backdrop, a Site of Scientific Interest (SSSI) and the biggest sand dune area in Argyll.
+                                                
+                                                Popular with surfers and dog walkers, West Port Beach is also a wonderful place to relax and enjoy a picnic. The beach is nestled alongside Machrihanish Golf Course, one of the finest links golf courses in the UK.
+                                                
+                                                To reach Westport Beach, head south from Tarbert on the A83 towards Campbeltown. You can walk down to the water via the path from the car park at Westport Beach.
+                                                
+                                                Absolute brilliant beach. Good parking. No loos but Campbeltown is 5 minutes away.
+                                                I boogie board here regularly and depend on the advice from the surfers to where the rips are and how strong the current is.
+                                                Miles of sandy beach and lovely for any kind of activity, in or out of the water. </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID13">
+                                            <button>See Less</button>
+                                        </div>
+                                        <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                    </div>
+                                </div>
                             </div>
-                        
+                        </div>
+
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
 
 
-                <div class="container-fluid first">
-                    <div class="container">
+            <div class="container-fluid first">
+                <div class="container">
                     <div class="row side4">
-                        <div class="side1 col-5">
+                        <div class="side12 col-5">
                             <h4> Hokitika Beach (West Coast)</h4>
                             <p>Hokitika Beach is known for its sweeping views of the Tasman Sea, with a
                                 stunning backdrop of the Southern Alps. The beach features a mix of smooth
@@ -503,10 +1114,49 @@
                                 its striking turquoise waters, is another highlight of the area.
                                 Highlights: Stunning sunsets, pebbly shores, and proximity to the Hokitika
                                 Gorge.</p>
-                                <div class="btnn">
-                                    <button>See more</button>
+                            <!-- <div class="btnn">
+                                <button>See more</button>
+                            </div> -->
+
+                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID14">
+                                <button>See more</button>
+                            </div>
+
+                            <!-- Modal Body-->
+                            <div class="modal fade" id="modalID14" tabindex="-1" role="dialog"
+                                aria-labelledby="modalTitleID" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleID">
+                                                Hokitika Beach (West Coast)
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="pic">
+                                                    <img src="images/93.jpg">
+                                                    <img src="images/94.webp">
+                                                </div>
+                                                <p>Hokitika’s cool, quirky vibe is fuelled by a large artisan community, a vibrant hospitality scene, and lashings of inspiring West Coast landscapes.
+
+                                                    Feet in the sand of a driftwood-laden beach, sitting proudly beside its historically infamous namesake river, under the snow-capped gaze of the Southern Alps, Hokitika charms from all sides offering up a fascinating past and a full range of activities to keep modern explorers happy.
+                                                    
+                                                    Hokitika Beach is an enchanting gem on New Zealand's West Coast that truly captivates the soul. With its breathtaking vistas of the Tasman Sea and pristine golden sands, this secluded haven is a paradise for nature lovers and beachcombers alike. The serenity of the beach is only interrupted by the soothing sound of crashing waves and the occasional seabird soaring overhead. Whether you're strolling along the shoreline, building sandcastles with the kids, or simply basking in the warm sun, Hokitika Beach offers a serene escape from the hustle and bustle of everyday life. The sunset views are simply mesmerizing, casting a golden glow across the horizon that is sure to leave you in awe. The beach is also known for its unique driftwood sculptures, which are true works of art crafted by nature herself.</p>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btnn" type="button" data-bs-toggle="modal" data-bs-target="#modalID14">
+                                                <button>See Less</button>
+                                            </div>
+                                            <!-- <button type="button" class="btn btn-primary">Save</button> -->
+                                        </div>
+                                    </div>
                                 </div>
-                    
+                            </div>
+
                         </div>
 
                         <div class="side1 col-4">
@@ -515,154 +1165,164 @@
 
                     </div>
                 </div>
-                </div>
-                <!-- East side -->
-                    
-                
             </div>
+            <!-- East side -->
+
+
+        </div>
 
 
 
 
-            <div class="contactus" id="contact">
-                <div class="container">
-                    <div class="maindiv">
-    
-                        <div class="conn">
-                            <h1>Contact us</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas incidunt vitae?
-                                </hp>
-                        </div>
-    
-    
-                        <div class="contact">
-                            <div class="infoz">
-                                <div class="info">
-                                    <i class="fa fa-map-marker" style="font-size:20px"></i>
-                                    <div class="add1">
-                                        <h4>Address</h4>
-                                        <h6>Gulzar E Hijri Scheme 33, Karachi, Pakistan</h6>
-                                    </div>
+        <div class="contactus" id="contact">
+            <div class="container">
+                <div class="maindiv">
+
+                    <div class="conn">
+                        <h1>Contact us</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptas incidunt vitae?
+                            </hp>
+                    </div>
+
+
+                    <div class="contact">
+                        <div class="infoz">
+                            <div class="info">
+                                <i class="fa fa-map-marker" style="font-size:20px"></i>
+                                <div class="add1">
+                                    <h4>Address</h4>
+                                    <h6>Gulzar E Hijri Scheme 33, Karachi, Pakistan</h6>
                                 </div>
-    
-                            </div>
-                            <div class="infoz">
-                                <div class="phone">
-                                    <i class="fa fa-phone" style="font-size:20px"></i>
-                                    <div class="add2">
-                                        <h4>Call Us</h4>
-                                        <h6>+92 28 2314096</h6>
-                                    </div>
-                                </div>
-    
-                            </div>
-                            <div class="infoz">
-                                <div class="email">
-                                    <i class="fa fa-envelope" style="font: size 18px;"></i>
-                                    <div class="add3">
-                                        <h4>Email Us</h4>
-                                        <h6>mustufasheikh93@gmail.com</h6>
-                                    </div>
-                                </div>
-    
                             </div>
 
                         </div>
-    
-                    </div>
-                    
-                    <div class="message">
-                        <div class="name">
-                            <input class="myinput" type="text" id="name" placeholder="Your Name"> 
+                        <div class="infoz">
+                            <div class="phone">
+                                <i class="fa fa-phone" style="font-size:20px"></i>
+                                <div class="add2">
+                                    <h4>Call Us</h4>
+                                    <h6>+92 28 2314096</h6>
+                                </div>
+                            </div>
+
                         </div>
-                        <div class="mnn">
-                            <input class="myinput" type="email" id="email" placeholder="Your Email">
+                        <div class="infoz">
+                            <div class="email">
+                                <i class="fa fa-envelope" style="font: size 18px;"></i>
+                                <div class="add3">
+                                    <h4>Email Us</h4>
+                                    <h6>mustufasheikh93@gmail.com</h6>
+                                </div>
+                            </div>
+
                         </div>
-                       
+
                     </div>
-    
-                    <div class="msg">
-                          <textarea placeholder="Describe Your Message" name="" id="message"></textarea>  
-                    </div>
-                    <div class="bttn">
-                        <button type="submit" onclick="sendMail()">Send Message</button>
-                    </div>
-                      
-    
+
                 </div>
+
+                <div class="message">
+                    <div class="name">
+                        <input class="myinput" type="text" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mnn">
+                        <input class="myinput" type="email" id="email" placeholder="Your Email">
+                    </div>
+
+                </div>
+
+                <div class="msg">
+                    <textarea placeholder="Describe Your Message" name="" id="message"></textarea>
+                </div>
+                <div class="bttn">
+                    <button type="submit" onclick="sendMail()">Send Message</button>
+                </div>
+
+
             </div>
-        
-        </main>
-        <footer>
-            <!-- place footer here -->
-            <div class="page1">
-                <a href="Newzealand.html"> <img src="images/213-2137186_arrow-thin-up-comments-top-arrow-removebg-preview.png" alt=""></a>
-               </div>
+        </div>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+        <!-- <div class="page1">
+            <a href="index.html"> <img src="images/213-2137186_arrow-thin-up-comments-top-arrow-removebg-preview.png"
+                    alt=""></a>
+        </div> -->
 
 
-               <div class="container">
-                <div class="row">
-                    <div class="col-3 one">
-                        <a href="index.html"><img src="images/BEAUTIFUL.png" alt=""></a>
-                        <p>Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.</p>
-                        <div class="social-icons">
-                            <a href="https://www.facebook.com/"><i class="fa fa-facebook-f" style="font-size: 20px;"></i></a>
-                            <a href="https://github.com/login"><i class="fa fa-github" style="font-size: 20px; padding-left: 10px;"></i></a>
-                            <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size: 20px; padding-left: 10px;"></i></a>
-                            <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin " style="font-size: 20px; padding-left: 10px;"></i></a>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 one">
+                    <a href="index.html"><img src="images/BEAUTIFUL.png" alt=""></a>
+                    <p>Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-f"
+                                style="font-size: 20px;"></i></a>
+                        <a href="https://github.com/login"><i class="fa fa-github"
+                                style="font-size: 20px; padding-left: 10px;"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"
+                                style="font-size: 20px; padding-left: 10px;"></i></a>
+                        <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin "
+                                style="font-size: 20px; padding-left: 10px;"></i></a>
                     </div>
-                    <div class="col-3 num">
-                        <h3>Contact</h3>
-                        <p>Gulzar E Hijri Scheme 33, Karachi, Pakistan</p>
-                        <h6>mustufasheikh93@gmail.com</h6>
-                        <h4>+92 28 2314096</h4>
-                    </div>
-                    <div class="col-3 ex">
-                        <h3>Explore</h3>
-                        <ul class="links">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="index.html#about">About Us</a></li>
-                            <li><a href="index.html#testimonial">Services</a></li>
-                            <li><a href="#contact">Contacts</a></li>
-                            <li><a href="Austrailia.html">Countries</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-3 es">
-                        <H3>Newsletter!</H3>
-                         <div class="send">
-                            <!-- <i class="fa fa-envelope" style="font-size: 18px;"></i> -->
-                            <input class="placeholder" type="email" placeholder="Enter your email id">
-                           <div class="b">
-                            <button type="submit">Submit</button>
+                </div>
+                <div class="col-3 num">
+                    <h3>Contact</h3>
+                    <p>Gulzar E Hijri Scheme 33, Karachi, Pakistan</p>
+                    <h6>mustufasheikh93@gmail.com</h6>
+                    <h4>+92 28 2314096</h4>
+                </div>
+                <div class="col-3 ex">
+                    <h3>Explore</h3>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#testimonial">Services</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <li><a href="Newzealand.html">Countries</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 es">
+                    <H3>Newsletter!</H3>
+                    <div class="send">
+                        <!-- <i class="fa fa-envelope" style="font-size: 18px;"></i> -->
+                        <input class="placeholder" type="email" placeholder="Enter your email id">
+                        <div class="secbutton">
+                            <div class="b">
+                                <button type="submit">Submit</button>
+                               </div>
+                               <div class="page1">
+                                <a href="Newzealand.html"> <img src="images/213-2137186_arrow-thin-up-comments-top-arrow-removebg-preview.png" alt=""></a>
+                               </div>
                            </div>
-                        </div>
-                      
                     </div>
+
                 </div>
-                <hr>
-               <div class="cp">
+            </div>
+            <hr>
+            <div class="cp">
                 <p>© copyright 2024/2025 by Beautiful Beaches</p>
-               </div>
-                </div>
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
-        <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script src="index.js"></script>
-    </body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <script src="index.js">
+
+    </script>
+</body>
+
 </html>

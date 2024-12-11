@@ -1232,6 +1232,7 @@ textarea{
     display: flex;
     justify-content: center;
     padding-top: 20px;
+
 }
 
 
@@ -1258,7 +1259,6 @@ textarea{
 .page1 img{
     width: 15px;
 }
-
 
 
 footer {
@@ -1411,10 +1411,6 @@ ul li a {
 
 input.placeholder {
     cursor: auto;
-}
-
-.download{
-    display: none;
 }
 
 
@@ -1595,10 +1591,34 @@ input.placeholder {
         padding-right: 10px;
         padding-bottom: 7px;
         padding-top: 7px;
-        width: 45%;
+        width: 100%;
         background-color: transparent;
         color: #fff;
         border: 1px solid #fff;
+    }
+
+    .secbutton{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .page1{
+        background-color: #DCD5C1;
+        width: 18%;
+        padding: 9px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        /* float: right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: fixed;
+        bottom: 0;
+        right: 0; */
+    }
+    .page1 img{
+        width: 15px;
     }
 }
 
@@ -1767,9 +1787,7 @@ input.placeholder {
     .page1 img{
         width: 13px;
     }
-    .one img{
-        width: 18%;
-    }
+
 
     .page1 {
         margin-right: 10px;
@@ -1779,12 +1797,45 @@ input.placeholder {
         width: 13px;
     }
     .one img{
-        width: 35%;
+        width: 20%;
     }
     .col-3{
-        width: 60%;
+        width: 100%;
     }
 
+    .secbutton{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .page1{
+        background-color: #DCD5C1;
+        width: 5%;
+        padding: 9px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        /* float: right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: fixed;
+        bottom: 0;
+        right: 0; */
+    }
+    .page1 img{
+        width: 15px;
+    }
+    .b button {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        width: 100%;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+    }
 }
 
 
@@ -1966,7 +2017,6 @@ input.placeholder {
 
     .row{
         justify-content: center;
-        align-items: center;
     }
 
 
@@ -2002,6 +2052,7 @@ input.placeholder {
     .page1 img{
         width: 10px;
     }
+
     .page1 {
         margin-right: 12px;
         width: 9%;
@@ -2012,10 +2063,10 @@ input.placeholder {
     }
 
     .one img{
-        width: 50%;
+        width: 30%;
     }
     .col-3{
-        width: 70%;
+        width: 100%;
     }
     .placeholder {
         color: #fff;
@@ -2026,5 +2077,38 @@ input.placeholder {
         padding-bottom: 8px;
         padding-top: 8px;
         outline: none;
+    }
+    .secbutton{
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .page1{
+        background-color: #DCD5C1;
+        width: 15%;
+        padding: 9px;
+        border-radius: 10px;
+        justify-content: center;
+        display: flex;
+        /* float: right;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        position: fixed;
+        bottom: 0;
+        right: 0; */
+    }
+    .page1 img{
+        width: 15px;
+    }
+    .b button {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        width: 100%;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
     }
 }
